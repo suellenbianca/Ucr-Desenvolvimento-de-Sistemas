@@ -13,7 +13,7 @@ jobs:
     strategy:
       max-parallel: 2
       matrix:
-        python-version: ['3.11', '3.10']
+        python-version: ['3.12', '3.13']
 
     env:
       SECRET_KEY: ${{ secrets.SECRET_KEY }}
